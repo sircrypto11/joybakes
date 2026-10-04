@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Joy Bakers - Catalog</title>
+
+    <link rel="stylesheet" href="catalog.css">
+</head>
+
+<body>
+
+    
+
+    <header>
+
+        <img src="images/logo.png"
+             alt="Joy Bakers Logo"
+             style="width: 150px; height: 150px;">
+
+        <nav class="navbar">
+
+            <ul>
+
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="signup.html">Sign Up</a>
+                </li>
+
+                <li>
+                    <a href="dashboard.html">Dashboard</a>
+                </li>
+
+                <li>
+                    <a href="login.html">Login</a>
+                </li>
+
+                <li>
+                    <a href="catalog.html">Catalog</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+
+
+    <main>
+
+        <h2>OUR CATALOG</h2>
+
+        <p>
+            Explore our wide range of delicious baked goods and treats.
+            From classic favourite to unique creations, our catalog
+            has something for everyone.
+        </p>
+
+
+        <!-- Chocolate Cake -->
+
+        <div class="product">
+
+            <img src="cake1.png"
+                 alt="Chocolate Cake"
+                 style="width: 200px; height: 100px;">
+
+            <h3>Chocolate Cake</h3>
+
+            <p>
+                Rich and moist chocolate cake topped with creamy
+                chocolate frosting.
+            </p>
+
+            <p>Price: KSh 1500</p>
+
+            <button class="viewDetails">
+                View Details
+            </button>
+
+            <button class="orderButton">
+                Add to Cart
+            </button>
+
+        </div>
+
+
+        
+
+        <div class="product">
+
+            <img src="images/vanilla.png"
+                 alt="Vanilla Cupcake"
+                 style="width: 200px; height: 100px;">
+
+            <h3>Vanilla Cupcake</h3>
+
+            <p>
+                Light and fluffy vanilla cupcake with a swirl
+                of buttercream frosting.
+            </p>
+
+            <p>Price: KSh 150</p>
+
+            <button class="viewDetails">
+                View Details
+            </button>
+
+            <button class="orderButton">
+                Add to Cart
+            </button>
+
+        </div>
+
+
+        
+
+        <div class="product">
+
+            <img src="images/velvet.png"
+                 alt="Red Velvet Cake"
+                 style="width: 200px; height: 100px;">
+
+            <h3>Red Velvet Cake</h3>
+
+            <p>
+                Classic red velvet cake with a hint of cocoa
+                and cream cheese frosting.
+            </p>
+
+            <p>Price: KSh 1800</p>
+
+            <button class="viewDetails">
+                View Details
+            </button>
+
+            <button class="orderButton">
+                Add to Cart
+            </button>
+
+        </div>
+
+
+
+        <div class="product">
+
+            <img src="images/tart.png"
+                 alt="Lemon Tart"
+                 style="width: 200px; height: 100px;">
+
+            <h3>Lemon Tart</h3>
+
+            <p>
+                Tangy lemon tart with a buttery crust and
+                a smooth lemon filling.
+            </p>
+
+            <p>Price: KSh 800</p>
+
+            <button class="viewDetails">
+                View Details
+            </button>
+
+            <button class="orderButton">
+                Add to Cart
+            </button>
+
+        </div>
+
+
+        
+
+        <div class="product">
+
+            <img src="images/straw.png"
+                 alt="Strawberry Cheesecake"
+                 style="width: 200px; height: 100px;">
+
+            <h3>Strawberry Cheesecake</h3>
+
+            <p>
+                Creamy cheesecake topped with fresh strawberries
+                and strawberry glaze.
+            </p>
+
+            <p>Price: KSh 2000</p>
+
+            <button class="viewDetails">
+                View Details
+            </button>
+
+            <button class="orderButton">
+                Add to Cart
+            </button>
+
+        </div>
+
+
+        
+
+        <section id="cart">
+
+            <h2>YOUR CART</h2>
+
+            <div id="cartItems">
+
+                <p>Your cart is empty.</p>
+
+            </div>
+
+            <h3>
+                Total: KSh
+                <span id="total">0</span>
+            </h3>
+
+            <button id="orderNow">
+                Order Now
+            </button>
+
+        </section>
+
+
+        
+
+        <dialog id="productDialog">
+
+            <h3 id="dialogTitle"></h3>
+
+            <p id="dialogDescription"></p>
+
+            <p>
+                Price: KSh
+                <span id="dialogPrice"></span>
+            </p>
+
+            <button id="closeDialog">
+                Close
+            </button>
+
+        </dialog>
+
+    </main>
+
+
+    
+
+    <script src="catalog.js"></script>
+
+</body>
+
+</html>

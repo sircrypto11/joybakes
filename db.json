@@ -1,0 +1,33 @@
+{
+  "users": [
+    {
+      "name": "Wendy",
+      "email": "Wendy@gmail.com",
+      "phone": "1234567890",
+      "password": "12345678",
+      "id": "tLy0g-dq9So"
+    },
+    {
+      "name": "Ron",
+      "email": "ron@gmail.com",
+      "phone": "123456789",
+      "password": "1234567890",
+      "id": "TqFVSWkDo7Y"
+    }
+  ],
+  "orders": [
+    {
+      "userId": "tLy0g-dq9So",
+      "items": [
+        {
+          "name": "Strawberry Cheesecake",
+          "price": 2000
+        }
+      ],
+      "total": 2000,
+      "status": "Pending",
+      "id": "LJeApC9mPG8"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

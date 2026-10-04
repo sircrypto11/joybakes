@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Joy Bakers - Dashboard</title>
+
+    <link rel="stylesheet" href="dashboard.css">
+
+</head>
+
+
+<body>
+
+
+
+
+    <header>
+
+        <img src="images/logo.png"
+             alt="Joy Bakers Logo"
+             style="width: 120px; height: 120px;">
+
+
+        <nav class="navbar">
+
+            <ul>
+
+                <li>
+                    <a href="index.html">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="catalog.html">
+                        Catalog
+                    </a>
+                </li>
+
+                <li>
+                    <a href="dashboard.html">
+                        Dashboard
+                    </a>
+                </li>
+
+                <li>
+                    <a href="login.html">
+                        Login
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    
+
+    <main>
+
+        <section class="dashboard">
+
+
+            <h1>
+                Welcome to Joy Bakers
+            </h1>
+
+
+            <p id="welcomeMessage">
+
+                Welcome back!
+                Manage your orders and explore
+                our delicious products.
+
+            </p>
+
+
+            
+
+            <div class="dashboard-cards">
+
+
+                <div class="card">
+
+                    <h3>
+                        Total Orders
+                    </h3>
+
+                    <p id="totalOrders">
+                        0
+                    </p>
+
+                </div>
+
+
+                <div class="card">
+
+                    <h3>
+                        Pending Orders
+                    </h3>
+
+                    <p id="pendingOrders">
+                        0
+                    </p>
+
+                </div>
+
+
+                <div class="card">
+
+                    <h3>
+                        Completed Orders
+                    </h3>
+
+                    <p id="completedOrders">
+                        0
+                    </p>
+
+                </div>
+
+
+                <div class="card">
+
+                    <h3>
+                        Total Spent
+                    </h3>
+
+                    <p>
+                        KSh
+                        <span id="totalSpent">
+                            0
+                        </span>
+                    </p>
+
+                </div>
+
+
+            </div>
+
+
+            
+
+            <section class="quick-actions">
+
+
+                <h2>
+                    Quick Actions
+                </h2>
+
+
+                <button onclick="goToCatalog()">
+
+                    Order Something
+
+                </button>
+
+
+                <button onclick="viewOrders()">
+
+                    View Orders
+
+                </button>
+
+
+                <button onclick="logout()">
+
+                    Logout
+
+                </button>
+
+
+            </section>
+
+
+            
+
+            <section class="recent-orders">
+
+
+                <h2>
+                    Recent Orders
+                </h2>
+
+
+                <div id="ordersList">
+
+                    <p>
+                        No orders available.
+                    </p>
+
+                </div>
+
+
+            </section>
+
+
+        </section>
+
+    </main>
+
+
+    <script src="dashboard.js"></script>
+
+
+</body>
+
+</html>
